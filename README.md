@@ -1,5 +1,5 @@
 # .
-
+  brew install dotnet@8                                                                                                                                                                       
 dotnet new mvc -n YourProjectName -au Individual -f net8.0                                                                                                                                  
                                                                                                                                                                                               
   Пакеты EF Core:                                                                                                                                                                             
