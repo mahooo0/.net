@@ -15,7 +15,7 @@
                                                                                                                                                                                               
   # 7. Добавить DbSet в Data/ApplicationDbContext.cs:                                                                                                                                         
   #    public DbSet<Product> Products { get; set; }                                                                                                                                           
-                                                                                                                                                                                              
+       <a class="nav-link" asp-controller="Products" asp-action="Index">Products</a>                                                                                                                                                                                                                                                                                                       
   dotnet ef migrations add AddProduct                                                                                                                                                         
   dotnet ef database update                                                                                                                                                                   
                                                                                                                                                                                               
